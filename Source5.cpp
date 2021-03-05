@@ -1,11 +1,9 @@
 #include <iostream>
 #include <cctype>
-
 using namespace std;
-
 int main() {
-    int sum = 0;
     int x;
+    int sum = 0;
     cout << "put kolvo" << endl;
     cin >> x;
     char simbol;
@@ -17,7 +15,6 @@ int main() {
         else {
             cout << (char)tolower(simbol);
         }
-
     }
     cout << "sum= " << sum << endl;
     return 0;
